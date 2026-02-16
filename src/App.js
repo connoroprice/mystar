@@ -51,13 +51,6 @@ const Logo=({size=20})=>(
   </span>
 );
 
-const LogoDark=({size=20})=>(
-  <span style={{fontFamily:"'Sora',sans-serif",fontSize:size,fontWeight:800,color:'#0C0F17',letterSpacing:'-0.5px',display:'inline-flex',alignItems:'center',userSelect:'none',gap:2}}>
-    My<span style={{display:'inline-flex',alignItems:'center',margin:'0 2px',position:'relative',top:'-1px'}}>
-      <svg viewBox="0 0 24 24" style={{width:size*0.85,height:size*0.85}} fill="url(#sg2)" stroke="none"><defs><linearGradient id="sg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stopColor="#F59E0B"/><stop offset="100%" stopColor="#FBBF24"/></linearGradient></defs><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-    </span><span style={{background:'linear-gradient(135deg,#34D399,#06B6D4)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent',backgroundClip:'text'}}>Star</span>
-  </span>
-);
 
 // Input field style
 const inputDark = {width:'100%',padding:'13px 18px',borderRadius:12,border:'1px solid rgba(255,255,255,.07)',background:'rgba(255,255,255,.03)',backdropFilter:'blur(8px)',color:'#fff',fontSize:14.5,fontFamily:"'DM Sans',sans-serif",outline:'none',transition:'all .3s'};
